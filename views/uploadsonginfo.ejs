@@ -1,0 +1,37 @@
+<body id="upload_body">
+      <div id="song_info_div" class="slide active">
+        <form action="/music/upload_song_info/<%=locals.user._id%>" method="POST">
+          <div class="logoandhead pt-3">
+            <img src="/images/logo2.png" class="logo-form" alt="logo">
+        <h1 id="text">Upload</h1>
+        </div>
+         <h3 style="color: rgb(146, 95, 150); margin-left: -10vw; margin-top: 3vh;font-family: serif;"> Song Name:</h3> 
+         <input type="text" class="inp" name="name" id="">
+         <h3 style="color: rgb(148, 79, 180); margin-left: -10vw; margin-top: 3vh;font-family: serif;">Date of release</h3> 
+         <input type="date" class="inp" name="date" id="">
+         <h3 style="color: rgb(169, 66, 179); margin-left: -9.5vw; margin-top: 3vh;font-family: serif;">Singer name:</h3> 
+         <input type="text" class="inp" name="singername" id="">
+         <h3 style="color: rgb(148, 79, 180); margin-left: -10vw; margin-top: 3vh;font-family: serif;">Date of BIRTH</h3> 
+         <input type="date" class="inp" name="dob" id="">
+         <h3 style="color: rgb(169, 66, 179); margin-left: -9.5vw; margin-top: 3vh;font-family: serif;">BIO:</h3> 
+         <input type="text" class="inp" name="singerbio" id="">
+         <input type="submit" class="button-form-2" value="Next" id="song_info_div_submit">
+        </form>
+      </div>
+    </body>
+      
+      
+
+
+      <script>
+        $('#song_info_div_submit').click(function(){
+  var currentSlide=$('.slide.active');
+  var nextSlide=currentSlide.next();
+  console.log('Script Called');
+  var e = $('.song_form');
+  e[0].style.display="block";
+  currentSlide.fadeOut(200).removeClass('active');
+  nextSlide.fadeIn(50).addClass('active');
+});
+      </script>
+      

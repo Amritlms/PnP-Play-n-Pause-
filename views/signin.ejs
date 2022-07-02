@@ -1,0 +1,48 @@
+<div class="container- m-0 p-0 animsition-overlay" id="signin_main_div"  style="background-color: rgba(1, 3, 20, 0.979);">
+    <div class="colored_div">
+        <img src="/images/logo3.png" class=" signin_logo" alt="">
+    </div>
+    <div class="second_half" >
+        <p class="form_head">Login</p>
+        <form action="/users/create_session" method="POST">
+            <p class="username_para">Username or Email:</p>
+            <input type="text" name="email" id="username_text" placeholder="Enter Registered Email ID">
+            <p class="password_para">Password:</p>
+            <input type="password" name="password" id="password_text"><br>
+            <input type="submit" value="Sign In" id="signin_submit">
+        </form>
+        <p class="to_signup">Don't have an account?<a href="/users/signup" class="fromintoup"> Sign Up</a></p>
+        <p class="auth_signin_para">or <br><span class="auth_opt"> Sign In with:</span></p>
+
+        <div class="auth_icons">
+            <a href="/users/auth/google" class="auth_anchor"><img src="/images/search.png" alt="" class="auth_icon_img"></a>
+            <a href="" class="auth_anchor"><img src="/images/facebook.png" alt="" class="auth_icon_img"></a>
+        </div>
+    </div>
+</div>
+<footer class="main-footer button-form fixed-bottom" style="margin-top: 0.38rem;">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="/users/auth/google" class="social-link">
+              <img src="/images/search.png">
+              Google
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <img src="/images/facebook.png">
+              Facebook
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
