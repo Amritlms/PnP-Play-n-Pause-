@@ -29,11 +29,11 @@
   User should add his/her google credentials and set the callback url before using google authentication.  
     
    ## Screenshots  
-   ![](images/home.PNG)  
-   ![](images/Landing.PNG)  
-   ![](images/Login.PNG)  
-   ![](images/signup.PNG)  
-   ![](images/upload.PNG)  
-   ![](images/uploadinfo.PNG)  
-   ![](images/User profile.PNG)
+   ![](images/home.png)  
+   ![](images/Landing.png)  
+   ![](images/Login.png)  
+   ![](images/signup.png)  
+   ![](images/upload.png)  
+   ![](images/uploadinfo.png)  
+   ![](images/userprofile.png)
   
