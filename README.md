@@ -28,12 +28,21 @@
   User can also add new categories from the admin route  : /music/admin/upload.  
   User should add his/her google credentials and set the callback url before using google authentication.  
     
-   ## Screenshots  
+   ## Screenshots 
+   
+  ### Home Page
    ![](images/home.png)  
-   ![](images/Landing.png)  
+  ###  Landing Page
+   ![](images/Landing.png)
+  ### Log In Page 
    ![](images/Login.png)  
+  ### Sign Up Page
    ![](images/signup.png)  
+  ### Upload Song page
    ![](images/upload.png)  
-   ![](images/uploadinfo.png)  
+   ### Upload Song info page 
+   ![](images/uploadinfo.png) 
+   ### User Profile 
    ![](images/userprofile.png)
+   
   
